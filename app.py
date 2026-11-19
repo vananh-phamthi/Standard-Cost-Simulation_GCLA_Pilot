@@ -23,7 +23,6 @@ st.markdown(
 )
 
 
-@st.cache_data
 def load_html() -> str:
     """Load the standalone HTML simulator from disk."""
     base_dir = Path(__file__).parent
